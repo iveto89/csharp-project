@@ -3,7 +3,7 @@
 namespace csharpproject {
 	
 	class Rectangle {
-		double length;
+		double length;      
 		double width;
 
 		public void Acceptdetails() {
