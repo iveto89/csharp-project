@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{341A9E69-FA51-41DD-BDF9-8A671032AAA9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>csharpproject</RootNamespace>
+    <AssemblyName>csharp-project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReclangleClass.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="Themes\Dark\Content\Images\banner.demo.jpg" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.bg.png" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.home.png" />
+    <None Include="Themes\Dark\Content\Images\breadcrumb.sep.png" />
+    <None Include="Themes\Dark\Content\Images\contentimage.demo.jpg" />
+    <None Include="Themes\Dark\Content\Images\DarkHeader.jpg" />
+    <None Include="Themes\Dark\Content\Images\Flags\en-US.gif" />
+    <None Include="Themes\Dark\Content\Images\Flags\pt-PT.gif" />
+    <None Include="Themes\Dark\Content\Images\footer.bg.png" />
+    <None Include="Themes\Dark\Content\Images\footer.L.png" />
+    <None Include="Themes\Dark\Content\Images\footer.M.png" />
+    <None Include="Themes\Dark\Content\Images\footer.R.png" />
+    <None Include="Themes\Dark\Content\Images\footerimage.demo.png" />
+    <None Include="Themes\Dark\Content\Images\header.shadow.png" />
+    <None Include="Themes\Dark\Content\Images\inputbtn.png" />
+    <None Include="Themes\Dark\Content\Images\logo.png" />
+    <None Include="Themes\Dark\Content\Images\menu.arrow.png" />
+    <None Include="Themes\Dark\Content\Images\menu.bg.png" />
+    <None Include="Themes\Dark\Content\Images\menuV.TL.png" />
+    <None Include="Themes\Dark\Content\Images\menuV.TR.png" />
+    <None Include="Themes\Dark\Content\Images\menuVitem.png" />
+    <None Include="Themes\Dark\Content\Images\page.bg.dots.png" />
+    <None Include="Themes\Dark\Content\Images\page.bg.lights.png" />
+    <None Include="Themes\Dark\Content\Images\search.bg.png" />
+    <None Include="Themes\Dark\Content\Images\submenu.arrow.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BL.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BM.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.BR.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.ML.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.MR.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TL.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TM.png" />
+    <None Include="Themes\Dark\Content\Images\topbanner.TR.png" />
+    <None Include="Themes\Dark\Instructions.txt" />
+    <None Include="Themes\Dark\Styles\C01.BR.png" />
+    <None Include="Themes\Dark\Styles\C01.TL.png" />
+    <None Include="Themes\Dark\Styles\C01.TM.png" />
+    <None Include="Themes\Dark\Styles\site.css" />
+    <None Include="Themes\Dark\Theme.png" />
+    <None Include="Themes\Dark\Theme.txt" />
+    <None Include="Themes\Dark\Views\Content.cshtml" />
+    <None Include="Themes\Dark\Views\Document.cshtml" />
+    <None Include="Themes\Dark\Views\DocumentNoSearch.cshtml" />
+    <None Include="Themes\Dark\Views\Layout.cshtml" />
+    <None Include="Themes\Dark\Views\Q1.cshtml" />
+    <None Include="Themes\Dark\Views\Q2.cshtml" />
+    <None Include="Themes\Dark\Views\Q3.cshtml" />
+    <None Include="Themes\Dark\Views\Q4.cshtml" />
+    <None Include="Themes\Dark\Views\T1.cshtml" />
+    <None Include="Themes\Dark\Views\T2.cshtml" />
+    <None Include="Themes\Dark\Views\T3.cshtml" />
+    <None Include="Themes\Dark\Views\Top.cshtml" />
+    <None Include="Themes\Dark\Views\Widget.Wrapper.cshtml" />
+    <None Include="packages.config" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
